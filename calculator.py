@@ -58,6 +58,5 @@ class ElectricCar(Car):
         return self.power_consumption * mileage / 1000 * get_power_price()
 
 
-class Motorcycle(Car):
-    pass
+
 
